@@ -38,3 +38,5 @@ app.get('/ping', (req, res) => {
 app.listen(port, () => {
   console.log('Server started on http://localhost:3000');
 });
+
+module.exports = app;
